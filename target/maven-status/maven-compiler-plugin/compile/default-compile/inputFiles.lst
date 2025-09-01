@@ -1,0 +1,6 @@
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/IRepository/IProductoRepository.java
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/controller/ProductoController.java
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/entities/Producto.java
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/DemoCrudApplication.java
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/service/ProductoService.java
+/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/IService/IProductService.java
