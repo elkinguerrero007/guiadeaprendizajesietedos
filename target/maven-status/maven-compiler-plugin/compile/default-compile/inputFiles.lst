@@ -1,6 +1,6 @@
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/IRepository/IProductoRepository.java
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/controller/ProductoController.java
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/entities/Producto.java
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/DemoCrudApplication.java
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/service/ProductoService.java
-/home/elkin/Downloads/demoCrud/src/main/java/com/example/demoCrud/IService/IProductService.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/IService/IProductService.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/service/ProductoService.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/controller/ProductoController.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/entities/Producto.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/DemoCrudApplication.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/IRepository/IProductoRepository.java

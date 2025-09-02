@@ -1,0 +1,128 @@
+1. Portada
+
+Título: CRUD de Productos – Aplicación REST con Spring Boot
+Descripción: Módulo que permite gestionar productos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar) con API REST.
+
+2. Introducción
+
+El presente documento describe la codificación y pruebas del módulo CRUD de productos. Este módulo permite crear, listar, actualizar y eliminar productos, cumpliendo con los requerimientos de las historias de usuario y casos de uso establecidos en el proyecto.
+
+3. Objetivo
+
+Verificar que el módulo codificado cumple con todas las funcionalidades de gestión de productos, asegurando la integridad de los datos y la correcta comunicación con la base de datos a través de la API REST.
+
+4. Historias de Usuario
+Historia de Usuario 1
+
+Como administrador
+Quiero registrar un nuevo producto
+Para que pueda estar disponible en el sistema
+
+Requisitos asociados:
+
+Endpoint POST /api/producto/save
+
+Campos obligatorios: nombre, precio
+
+Validaciones: tipo de dato numérico en precio, longitud mínima en nombre
+
+Prueba:
+Se realiza un POST con JSON válido:
+
+{
+  "nombre": "Laptop",
+  "precio": 2500,
+  "titulo": "Gamer",
+  "imagen": "url.jpg",
+  "descripcion": "Laptop para gaming"
+}
+
+
+Pantallazo:
+(Insertar imagen de Postman o terminal mostrando respuesta HTTP 201 y JSON del producto creado)
+
+Historia de Usuario 2
+
+Como usuario del sistema
+Quiero listar todos los productos
+Para visualizar los productos existentes
+
+Requisitos asociados:
+
+Endpoint GET /api/producto/getAll
+
+Prueba:
+Se realiza un GET y se obtiene la lista completa de productos.
+
+Pantallazo:
+(Insertar imagen de Postman o terminal mostrando listado de productos en JSON)
+
+Historia de Usuario 3
+
+Como administrador
+Quiero actualizar un producto existente
+Para corregir o modificar su información
+
+Requisitos asociados:
+
+Endpoint PUT /api/producto/update/{id}
+
+Validaciones: comprobar existencia del producto, tipo de datos correctos
+
+Prueba:
+
+{
+  "nombre": "Laptop Pro",
+  "precio": 2800,
+  "titulo": "Gamer Plus",
+  "imagen": "url2.jpg",
+  "descripcion": "Laptop gaming mejorada"
+}
+
+
+Pantallazo:
+(Insertar imagen mostrando JSON actualizado y respuesta HTTP 200)
+
+Historia de Usuario 4
+
+Como administrador
+Quiero eliminar un producto
+Para mantener la base de datos actualizada y sin productos obsoletos
+
+Requisitos asociados:
+
+Endpoint DELETE /api/producto/delete/{id}
+
+Prueba:
+Se realiza un DELETE y se verifica que el producto ya no aparece en /getAll.
+
+Pantallazo:
+(Insertar imagen mostrando respuesta HTTP 204 y verificación del borrado)
+
+5. Pruebas de Validación
+
+Campos obligatorios: nombre y precio no pueden estar vacíos
+
+Tipo de dato: precio solo acepta números
+
+Longitud: nombre mínimo 3 caracteres
+
+Pruebas de caracteres especiales: JSON acepta caracteres especiales en titulo y descripcion
+
+6. Conclusiones
+
+El módulo cumple con todas las historias de usuario planteadas.
+
+Los endpoints funcionan correctamente y manejan validaciones básicas.
+
+El CRUD está listo para integrarse con aplicaciones web o móviles.
+
+Las pruebas fueron realizadas con curl y Postman, verificando tanto éxito como errores posibles.
+
+7. Video
+
+Se adjuntará un video mostrando la ejecución de todos los endpoints con sus validaciones.
+
+Si quieres, puedo hacer una versión lista para Word, ya con secciones, cuadros para pantallazos y comentarios listos para entregar, que solo tendrás que arrastrar imágenes y video.
+
+¿Quieres que haga eso ahora?

@@ -1,6 +1,0 @@
-com/example/demoCrud/IRepository/IProductoRepository.class
-com/example/demoCrud/IService/IProductService.class
-com/example/demoCrud/service/ProductoService.class
-com/example/demoCrud/DemoCrudApplication.class
-com/example/demoCrud/controller/ProductoController.class
-com/example/demoCrud/entities/Producto.class
