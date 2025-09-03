@@ -7,5 +7,6 @@
 /home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/service/UsuarioService.java
 /home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/IService/IUsuarioService.java
 /home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/controller/AuthController.java
+/home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/controller/UsuarioController.java
 /home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/DemoCrudApplication.java
 /home/elkin/Downloads/guiadeapredizajesietedos/src/main/java/com/example/guiadeaprendizajesietedos/IRepository/IProductoRepository.java
